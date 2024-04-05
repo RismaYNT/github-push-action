@@ -6,7 +6,7 @@ on:
       - main
   schedule:
     # Run at 12:00 on working days
-    - cron: 0-30 * * * *
+    - cron: 0-20 * * * *
 
 jobs:
   build:
