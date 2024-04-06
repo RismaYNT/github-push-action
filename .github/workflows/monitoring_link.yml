@@ -5,7 +5,6 @@ on:
     branches:
       - master
   schedule:
-    # Run at 12:00 on working days
     - cron: 0-30 * * * *
 
 jobs:
