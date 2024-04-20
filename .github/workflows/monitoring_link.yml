@@ -5,8 +5,7 @@ on:
     branches:
       - main
   schedule:
-    # Run at 12:00 on working days
-    - cron: 0-20 * * * *
+    - cron: 2 * * * *
 
 jobs:
   build:
